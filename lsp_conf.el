@@ -41,7 +41,8 @@
   :ensure t
   :init (global-flycheck-mode)
   :config
-  
+
+  (setq-default flycheck-disabled-checkers '(python-mypy))
   (use-package flycheck-pos-tip
     :straight t
     :after (flycheck)
