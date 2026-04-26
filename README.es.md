@@ -1,5 +1,7 @@
 # Custom Power Emacs Config
 
+[Read this in English / Leer en Inglés](./README.md)
+
 Una configuración de **Emacs modular**, minimalista y optimizada para el desarrollo de software moderno, centrada en la eficiencia mediante el uso intensivo del teclado.
 
 ![Editor Preview](images/sc1.png)
@@ -29,7 +31,7 @@ Una configuración de **Emacs modular**, minimalista y optimizada para el desarr
 
 ## Atajos de Teclado (Keybindings)
 
-Esta configuración utiliza prefijos mnemotécnicos para agrupar funcionalidades:
+Esta configuración utiliza prefijos para agrupar funcionalidades:
 
 - `M-m` (Prefijo Principal): Búsqueda de archivos, buffers y comandos globales.
 - `M-n` (Lenguajes): Acciones específicas de programación y testing (Pytest).

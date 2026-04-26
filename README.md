@@ -1,5 +1,7 @@
 # Custom Power Emacs Config
 
+[Read this in Spanish / Leer en Español](./README.es.md)
+
 A modular, minimalist **Emacs** configuration optimized for modern software development, focused on efficiency through intensive keyboard use.
 
 ![Editor Preview](images/sc1.png)
@@ -28,7 +30,7 @@ A modular, minimalist **Emacs** configuration optimized for modern software deve
 
 ## Keybindings
 
-This configuration uses mnemonic prefixes to group functionalities:
+This configuration uses prefixes to group functionalities:
 
 - `M-m` (Main Prefix): Searching for files, buffers, and global commands.
 - `M-n` (Languages): Specific programming and testing actions (Pytest).
