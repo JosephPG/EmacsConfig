@@ -1,38 +1,36 @@
-# Custom Power Emacs Config 🚀
+# Custom Power Emacs Config
 
-Una configuración de **Emacs modular**, minimalista y optimizada para el desarrollo de software moderno, centrada en la eficiencia mediante el uso intensivo del teclado.
+A modular, minimalist **Emacs** configuration optimized for modern software development, focused on efficiency through intensive keyboard use.
 
 ![Editor Preview](images/sc1.png)
 
-## 📋 Características Principales
+## Main Features
 
-- **Arquitectura Modular:** Configuración segmentada en archivos independientes dentro de la carpeta `own/` para un mantenimiento sencillo.
-- **Gestión de Paquetes con `straight.el`:** Instalaciones reproducibles y deterministas.
-- **IDE Ready:** Soporte completo de **LSP** y **Tree-sitter** para un análisis de código inteligente y resaltado de sintaxis superior.
-- **Flujo de Trabajo Keyboard-Driven:** Uso de teclas líder (`M-m`, `M-n`, `M-b`) para evitar combinaciones complejas.
-- **Estética Minimalista:** Basada en el tema `Atom One Dark`, fuente `Iosevka` y sin barras de herramientas ruidosas.
+- **Modular Architecture:** Segmented configuration in separate files within the `own/` folder for easy maintenance.
+- **Package Management with `straight.el`:** Reproducible and deterministic installations.
+- **IDE Ready:** Full support for **LSP** and **Tree-sitter** for intelligent code analysis and superior syntax highlighting.
+- **Keyboard-Based Workflow:** Use of leading keys (`M-m`, `M-n`, `M-b`) to avoid complex key combinations.
+- **Minimalist Aesthetics:** Based on the `Atom One Dark` theme, `Iosevka` font, and no toolbar noise.
 
-## 📸 Showcase
+## Showcase
 
 ![Workflow Preview](images/sc2.png)
-*Navegación con Treemacs, dashboard personalizado y línea de modo minimalista.*
+*Navigation with Treemacs, custom dashboard, and minimalist line mode.*
 
-## 🛠️ Lenguajes Soportados
+## Supported Languages
 
-
-| Lenguaje | Herramientas Integradas |
+| Language | Integrated Tools |
 | :--- | :--- |
-| **Python** | Pyright (LSP), Pytest, Ruff (Formatting), Pyvenv |
-| **JS/TS/TSX** | Typescript-ts-mode, Prettier, npm-bin integration |
-| **Lua** | Lua-mode (ideal para configs de AwesomeWM) |
-| **Config** | YAML-mode, Magit (Git client) |
+**Python** | Pyright (LSP), Pytest, Ruff (Formatting), Pyvenv |
+**JS/TS/TSX** | TypeScript ts-mode, Prettier, npm-bin integration |
+**Lua** | Lua-mode (ideal for AwesomeWM configurations) |
+**Config** | YAML-mode, Magit (Git client) |
 
-## ⌨️ Atajos de Teclado (Keybindings)
+## Keybindings
 
-Esta configuración utiliza prefijos mnemotécnicos para agrupar funcionalidades:
+This configuration uses mnemonic prefixes to group functionalities:
 
-- `M-m` (Prefijo Principal): Búsqueda de archivos, buffers y comandos globales.
-- `M-n` (Lenguajes): Acciones específicas de programación y testing (Pytest).
-- `M-b` (Comunes): Control de bloques de código (folding) y edición.
-- `M-0` hasta `M-9`: Navegación rápida entre ventanas y el explorador de archivos.
-
+- `M-m` (Main Prefix): Searching for files, buffers, and global commands.
+- `M-n` (Languages): Specific programming and testing actions (Pytest).
+- `M-b` (Common): Code block control (folding) and editing.
+- `M-0` through `M-9`: Quick navigation between windows and the file explorer.
