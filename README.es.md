@@ -1,10 +1,10 @@
-# Custom Power Emacs Config 🚀
+# Custom Power Emacs Config
 
 Una configuración de **Emacs modular**, minimalista y optimizada para el desarrollo de software moderno, centrada en la eficiencia mediante el uso intensivo del teclado.
 
 ![Editor Preview](images/sc1.png)
 
-## 📋 Características Principales
+## Características Principales
 
 - **Arquitectura Modular:** Configuración segmentada en archivos independientes dentro de la carpeta `own/` para un mantenimiento sencillo.
 - **Gestión de Paquetes con `straight.el`:** Instalaciones reproducibles y deterministas.
@@ -12,12 +12,12 @@ Una configuración de **Emacs modular**, minimalista y optimizada para el desarr
 - **Flujo de Trabajo Keyboard-Driven:** Uso de teclas líder (`M-m`, `M-n`, `M-b`) para evitar combinaciones complejas.
 - **Estética Minimalista:** Basada en el tema `Atom One Dark`, fuente `Iosevka` y sin barras de herramientas ruidosas.
 
-## 📸 Showcase
+## Showcase
 
 ![Workflow Preview](images/sc2.png)
 *Navegación con Treemacs, dashboard personalizado y línea de modo minimalista.*
 
-## 🛠️ Lenguajes Soportados
+## Lenguajes Soportados
 
 
 | Lenguaje | Herramientas Integradas |
@@ -27,7 +27,7 @@ Una configuración de **Emacs modular**, minimalista y optimizada para el desarr
 | **Lua** | Lua-mode (ideal para configs de AwesomeWM) |
 | **Config** | YAML-mode, Magit (Git client) |
 
-## ⌨️ Atajos de Teclado (Keybindings)
+## Atajos de Teclado (Keybindings)
 
 Esta configuración utiliza prefijos mnemotécnicos para agrupar funcionalidades:
 
@@ -35,4 +35,3 @@ Esta configuración utiliza prefijos mnemotécnicos para agrupar funcionalidades
 - `M-n` (Lenguajes): Acciones específicas de programación y testing (Pytest).
 - `M-b` (Comunes): Control de bloques de código (folding) y edición.
 - `M-0` hasta `M-9`: Navegación rápida entre ventanas y el explorador de archivos.
-
