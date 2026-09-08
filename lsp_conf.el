@@ -1,6 +1,6 @@
 (use-package lsp-mode
   :straight t
-  :hook ((python-mode js-mode typescript-ts-mode tsx-ts-mode) . lsp-deferred)
+  :hook ((python-mode js-mode typescript-ts-mode tsx-ts-mode go-mode) . lsp-deferred)
   :commands lsp
   :custom
   (lsp-diagnostics-provider :none)
@@ -19,13 +19,13 @@
     (setq lsp-headerline-breadcrumb-enable nil)))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;; Servers ;;;;;;;;;;;;;;;;;;;;;;;;;
+;; python lsp default
 (use-package lsp-pyright
   :straight t
   :ensure t
-  :custom (lsp-pyright-langserver-command "pyright")
-  :hook (python-mode . (lambda ()
-                          (require 'lsp-pyright)
-                          (lsp-deferred))))
+  :custom
+  ;; Le indicamos al paquete que use el ejecutable de basedpyright que instalaste
+  (lsp-pyright-langserver-command "basedpyright"))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;; Utils ;;;;;;;;;;;;;;;;;;;;;;;;;
 (use-package company-mode
@@ -64,6 +64,5 @@
   (use-package tree-sitter-langs
     :straight t
     :ensure t))
-
 
 (provide 'lsp_conf)

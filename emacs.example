@@ -52,3 +52,9 @@
 
 ;;; js - node - ts mode
 (require 'js_conf)
+
+;;; go  conf
+(require 'go_conf)
+
+;;; verb conf
+(require 'utils_conf)
