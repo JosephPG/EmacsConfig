@@ -24,9 +24,17 @@ A modular, minimalist **Emacs** configuration optimized for modern software deve
 | Language | Integrated Tools |
 | :--- | :--- |
 **Python** | Pyright (LSP), Pytest, Ruff (Formatting), Pyvenv |
-**JS/TS/TSX** | TypeScript ts-mode, Prettier, npm-bin integration |
+**JS/TS/TSX** | TypeScript ts-mode, Prettier, automatic `node_modules/.bin` resolution |
+**Go** | go-mode, LSP (gopls), golangci-lint via Flycheck, format/organize-imports on save |
 **Lua** | Lua-mode (ideal for AwesomeWM configurations) |
 **Config** | YAML-mode, Magit (Git client) |
+
+> **Note:** Go support requires `golangci-lint` installed separately on the system (e.g. `yay -S golangci-lint-bin` on Arch-based distros).
+
+## Extra Tools
+
+- **Integrated Terminal (`vterm`):** Fast native terminal per project, launched from the current project root via Projectile.
+- **REST Client (`verb`):** Write and run HTTP requests directly from Org-mode files, with results rendered inline.
 
 ## Keybindings
 
@@ -36,3 +44,10 @@ This configuration uses prefixes to group functionalities:
 - `M-n` (Languages): Specific programming and testing actions (Pytest).
 - `M-b` (Common): Code block control (folding) and editing.
 - `M-0` through `M-9`: Quick navigation between windows and the file explorer.
+
+### Terminal & REST Client
+
+- `M-m t`: Open a `vterm` terminal at the current project's root.
+- `M-m y`: Open a new `vterm` terminal at the project's root (forces a fresh instance).
+- `M-m v d`: Open the Verb command menu for the HTTP request under the cursor.
+- `M-m v e`: Run the HTTP request under the cursor.
