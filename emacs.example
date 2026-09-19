@@ -1,6 +1,10 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Charge path own config to load-path
 ;;; Code:
 (add-to-list 'load-path (expand-file-name "own" user-emacs-directory))
+
+(require 'imenu)
 
 ;;; Straight
 (require 'straight_conf)
@@ -58,3 +62,6 @@
 
 ;;; verb conf
 (require 'utils_conf)
+
+;;; org conf
+(require 'org_conf)

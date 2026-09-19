@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (use-package dashboard
   :straight t
   :ensure t

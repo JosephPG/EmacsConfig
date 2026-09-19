@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;; instala yay -S golangci-lint-bin por separado para configurar el lintern
 
 (use-package go-mode

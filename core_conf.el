@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (use-package ivy
   :straight t
   :ensure t
@@ -41,5 +43,8 @@
   (global-set-key (kbd "M-m t") 'projectile-run-vterm)
   (global-set-key (kbd "M-m y") (lambda () (interactive) (projectile-run-vterm t))))
 
+(use-package avy
+  :ensure t
+  :bind (("M-g s" . avy-goto-char)))
 
 (provide 'core_conf)

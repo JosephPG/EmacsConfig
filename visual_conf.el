@@ -1,10 +1,15 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Disabled visual default
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 
-;;; Line numbers
+;;; Line numbers in mode-line
 (setq column-number-mode t)
+
+;;; line numbers in buffer
+(global-display-line-numbers-mode 1)
 
 ;;; Scroll style
 (use-package good-scroll

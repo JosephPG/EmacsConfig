@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 (use-package treemacs
   :straight t
   :ensure t
@@ -8,6 +10,8 @@
   
   :config
   (treemacs-follow-mode -1)
+
+  (add-hook 'treemacs-mode-hook (lambda () (display-line-numbers-mode -1)))
 
   (use-package treemacs-all-the-icons
     :straight t

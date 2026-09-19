@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Master key completetion
 (use-package which-key
   :straight t

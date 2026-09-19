@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Parent symbol highlight
 (show-paren-mode)
 

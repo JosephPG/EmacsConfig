@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;;;;;;;;;;;;;;;;;;;;;;;; In start ;;;;;;;;;;;;;;;;;;;;;;;;;
 (use-package pyvenv
   :straight t

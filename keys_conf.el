@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Define KEYS
 (define-prefix-command 'SPC)
 (global-set-key (kbd "M-m") 'SPC)
@@ -12,5 +14,9 @@
 (global-set-key (kbd "M-<up>") 'windmove-up)
 (global-set-key (kbd "M-<right>") 'windmove-right)
 
+
+;; Scroll keys
+(global-set-key (kbd "C-M-<down>") (lambda () (interactive) (scroll-up-line 5)))
+(global-set-key (kbd "C-M-<up>") (lambda () (interactive) (scroll-down-line 5)))
 
 (provide 'keys_conf)

@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Load PATH from .bashrc
 ;;; https://www.emacswiki.org/emacs/ExecPath
 (use-package exec-path-from-shell

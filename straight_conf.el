@@ -1,3 +1,5 @@
+;; -*- lexical-binding: t; -*-
+
 ;;; Disabled package.el for straight.el
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
 
