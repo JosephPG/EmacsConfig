@@ -12,7 +12,7 @@
   :straight t
   :ensure t
   :init
-  (doom-modeline-mode 1))
+  (doom-modeline-mode 1)) ;;; M x: nerd-icons-install-fonts
 
 
 (provide 'modeline_conf)
